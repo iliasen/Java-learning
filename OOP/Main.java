@@ -1,6 +1,5 @@
 //Состав класса Comicstore (магазин комиксов): фамилия владельца, наличие лицензии, количество наименований продукции.
 public class Main {
-
     public static void main(String[] args) {
         System.out.println("Hello and welcome!");
 

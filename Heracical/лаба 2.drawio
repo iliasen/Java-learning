@@ -1,0 +1,49 @@
+<mxfile host="Electron" modified="2023-09-19T11:07:46.558Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="HEeuwoJ1MtebvcJN5YId" version="21.3.7" type="device">
+  <diagram name="Страница 1" id="xCGAzUchyRYV6EqheFqS">
+    <mxGraphModel dx="2261" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--1" value="i Орекстр" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--2" value="духовые" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--3" value="струнные" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--4" value="ударные" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--5" value="клавишные" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--6" value="Кларнет" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--7" value="Сексавон" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--8" value="Гитара" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--9" value="Скрипка" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--10" value="Барабаны" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--11" value="Бубен" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--12" value="Арган" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAE9FSGtogwQ5ClM0lm--13" value="Арган" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
