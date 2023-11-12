@@ -1,0 +1,20 @@
+<coffees>
+    <coffee>
+        <type>CAPPUCCINO</type>
+        <grind>COURSE</grind>
+        <make>ESPRESSO</make>
+        <pour>STEAMED_MILK</pour>
+    </coffee>
+    <coffee>
+        <type>CAFFE_LATTE</type>
+        <grind>FINE</grind>
+        <make>ESPRESSO</make>
+        <pour>HOT_MILK</pour>
+    </coffee>
+    <coffee>
+        <type>AMERICANO</type>
+        <grind>MEDIUM</grind>
+        <make>ESPRESSO</make>
+        <pour>HOT_WATER</pour>
+    </coffee>
+</coffees>
