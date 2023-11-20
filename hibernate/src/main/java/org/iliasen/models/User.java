@@ -15,7 +15,6 @@ public class User {
     private int id;
     @Column(name = "name")
     private String name;
-    //можно не указывать Column name, если оно совпадает с названием столбца в таблице
     private int age;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
