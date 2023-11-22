@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+    <service>
+        <name>Татуха от братухи </name>
+        <price>350.0</price>
+        <clients>
+            <client>John Loel</client>
+            <client>Филя Пирович</client>
+            <client>Никита Хурожев</client>
+        </clients>
+    </service>
+    <service>
+        <name>Славянский зажим яй...</name>
+        <price>0.0</price>
+        <clients>
+            <client>Ящеры</client>
+        </clients>
+    </service>
+    <service>
+        <name>Стрижка полубокс</name>
+        <price>45.0</price>
+        <clients>
+            <client>Шура</client>
+            <client>Сергей Шатило</client>
+            <client>Евгений Левров</client>
+        </clients>
+    </service>
+</services>
