@@ -1,21 +1,19 @@
 package com.example.servlets.filter;
 
-import com.example.servlets.utils.page.Page;
 import com.example.servlets.command.session.SessionAttribute;
+import com.example.servlets.utils.page.Page;
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpServletRequest;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-
 @WebFilter(urlPatterns = "/controller")
 public class LoginRequiredFilter implements Filter {
-    private static final String COMMAND = "com/example/servlets/command";
+    private static final String COMMAND = "command";
     private static final String WELCOME = "welcome";
     private static final String ERROR_MESSAGE = "error_message";
     private static final String ERROR_TEXT = "Нет авторизации для выполнения данной команды";

@@ -7,16 +7,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Барабер Шоп</title>
+    <title>ЛогистикБай</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-<h1>Услуги в МачоДачаХаусе</h1>
+<h1>Услуги компании</h1>
 <table border="1">
     <tr>
         <th>Услуга</th>
         <th>Цена</th>
-        <th>Клиенты</th>
+        <th>Продажа</th>
     </tr>
     <% List<Service> services = (List<Service>) request.getAttribute("services");
         for (Service service : services) { %>
@@ -60,11 +60,9 @@
 
 
 <script>
-    // Преобразование JSON-строк в массивы JavaScript
     var serviceNames = JSON.parse('<%= request.getAttribute("serviceNamesJson") %>');
     var serviceCounts = JSON.parse('<%= request.getAttribute("serviceCountsJson") %>');
 
-    // Отрисовка графика
     var ctx = document.getElementById('myChart').getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'bar',

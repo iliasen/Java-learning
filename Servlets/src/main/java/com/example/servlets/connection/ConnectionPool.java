@@ -17,7 +17,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ConnectionPool {
     private static final Logger logger = LogManager.getLogger(ConnectionPool.class);
     private static final String PROPERTY_PATH = "db";
-    private static final int INITIAL_CAPACITY = 5;
+    private static final int INITIAL_CAPACITY = 32;
     private ArrayBlockingQueue<Connection> freeConnections = new ArrayBlockingQueue<>(INITIAL_CAPACITY);
     private ArrayBlockingQueue<Connection> releaseConnections = new ArrayBlockingQueue<>(INITIAL_CAPACITY);
     private static ReentrantLock lock = new ReentrantLock();

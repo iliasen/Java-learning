@@ -15,8 +15,7 @@ public class Auto {
 
     //можно не указывать Column name, если оно совпадает с названием столбца в таблице
     private String color;
-
-
+    
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private User user;

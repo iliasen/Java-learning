@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <services>
     <service>
-        <name>Татуха от братухи </name>
+        <name>Транспортировка</name>
         <price>350.0</price>
         <clients>
-            <client>John Loel</client>
-            <client>Филя Пирович</client>
-            <client>Никита Хурожев</client>
+            <client>Были, да всплыли.</client>
+            <client>Люся</client>
+            <client>Никита</client>
         </clients>
     </service>
     <service>
-        <name>Славянский зажим яй...</name>
-        <price>0.0</price>
+        <name>Закупка</name>
+        <price>100.0</price>
         <clients>
-            <client>Ящеры</client>
+            <client>Я</client>
         </clients>
     </service>
     <service>
-        <name>Стрижка полубокс</name>
-        <price>45.0</price>
+        <name>Продажа</name>
+        <price>35.0</price>
         <clients>
-            <client>Шура</client>
-            <client>Сергей Шатило</client>
-            <client>Евгений Левров</client>
+            <client>Андрей</client>
+            <client>Анастасия</client>
+            <client>Евгений</client>
+            <client>Лина</client>
         </clients>
     </service>
 </services>

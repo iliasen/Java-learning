@@ -21,7 +21,7 @@ import org.apache.logging.log4j.Logger;
 import java.io.IOException;
 
 public class Controller extends HttpServlet {
-    private static final String COMMAND = "com/example/servlets/command";
+    private static final String COMMAND = "command";
     private static final String ERROR_MESSAGE = "error_message";
     private static final Logger LOGGER = LogManager.getLogger(Controller.class.getName());
 

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Барбер Шоп</title>
+    <title>Логистическая компания</title>
 </head>
 <body>
     <h1><a href="${pageContext.request.contextPath}/services">Перейти к списку услуг</a></h1>

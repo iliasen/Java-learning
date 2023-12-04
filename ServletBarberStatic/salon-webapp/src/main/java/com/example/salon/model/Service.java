@@ -1,5 +1,7 @@
 package com.example.salon.model;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -65,7 +67,7 @@ public class Service {
         this.servicePrice = servicePrice;
     }
 
-
+    @Test
     public List<String> getClientNames() {
         List<String> clientNames = new ArrayList<>();
         for (Client client : clients) {
