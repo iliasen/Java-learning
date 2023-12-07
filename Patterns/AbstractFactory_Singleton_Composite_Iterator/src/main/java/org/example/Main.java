@@ -25,9 +25,6 @@ public class Main {
         XMLParser xmlParser = parserFactory.createXMLParser();
 
         List<Vehicle> busList = xmlParser.parseFile("src/main/java/org/example/xml/bus.xml");
-
-//        busList = DateFilter.filterByDate(busList, LocalDate.of(2021, 9, 3));
-//        busList = TimeFilter.filterByTime(busList, "14:40");
         busList = GetNVehiclesAroundCurrentTime.getNVehiclesAroundCurrentTime(busList, 5);
 
         VehicleList vehicles = new VehicleList(busList);

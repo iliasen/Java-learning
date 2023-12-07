@@ -11,6 +11,8 @@
         <ticketCost>50.00</ticketCost>
         <trainOperator>ABC Railways</trainOperator>
         <travelTime>2 hours</travelTime>
+        <arrivalDate>2021-09-05</arrivalDate>
+        <arrivalTime>22:15</arrivalTime>
     </train>
     <train>
         <trainNumber>456</trainNumber>
@@ -23,6 +25,8 @@
         <ticketCost>75.00</ticketCost>
         <trainOperator>XYZ Rail</trainOperator>
         <travelTime>3 hours</travelTime>
+        <arrivalDate>2021-09-05</arrivalDate>
+        <arrivalTime>22:15</arrivalTime>
     </train>
     <train>
         <trainNumber>789</trainNumber>
@@ -35,6 +39,8 @@
         <ticketCost>100.00</ticketCost>
         <trainOperator>123 Trainlines</trainOperator>
         <travelTime>5 hours</travelTime>
+        <arrivalDate>2021-09-05</arrivalDate>
+        <arrivalTime>22:15</arrivalTime>
     </train>
     <train>
         <trainNumber>1011</trainNumber>
@@ -47,6 +53,8 @@
         <ticketCost>80.00</ticketCost>
         <trainOperator>City Express Rail</trainOperator>
         <travelTime>4 hours</travelTime>
+        <arrivalDate>2021-09-05</arrivalDate>
+        <arrivalTime>22:15</arrivalTime>
     </train>
     <train>
         <trainNumber>1213</trainNumber>
@@ -59,5 +67,7 @@
         <ticketCost>120.00</ticketCost>
         <trainOperator>Superior Railways</trainOperator>
         <travelTime>6 hours</travelTime>
+        <arrivalDate>2021-09-05</arrivalDate>
+        <arrivalTime>22:15</arrivalTime>
     </train>
 </trainData>
