@@ -1,11 +1,11 @@
 package org.example.factory;
 
-import org.example.writer.CSVWriter;
 import org.example.writer.FileWriter;
+import org.example.writer.XMLWriter;
 
-public class CSVWriterFactory implements FileWriterFactory{
+public class XMLWriterFactory implements FileWriterFactory {
     @Override
     public FileWriter createFileWriter() {
-        return new CSVWriter();
+        return new XMLWriter();
     }
 }

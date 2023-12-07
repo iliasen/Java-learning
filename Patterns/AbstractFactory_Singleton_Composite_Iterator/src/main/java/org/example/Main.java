@@ -3,11 +3,9 @@ package org.example;
 import org.example.factory.BusParserFactory;
 import org.example.factory.ParserFactory;
 import org.example.factory.TrainParserFactory;
-import org.example.filters.DateFilter;
-import org.example.filters.DeparturePlatformFilter;
+
 import org.example.filters.GetNVehiclesAroundCurrentTime;
-import org.example.filters.TimeFilter;
-import org.example.parsers.PropertiesParser;
+
 import org.example.parsers.XMLParser;
 import org.example.print.BusTablePrinter;
 import org.example.print.TrainTablePrinter;

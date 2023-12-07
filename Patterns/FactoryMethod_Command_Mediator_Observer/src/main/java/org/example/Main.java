@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.factory.FileWriterFactory;
 import org.example.factory.PropertiesWriterFactory;
+import org.example.factory.XMLWriterFactory;
 import org.example.input.TaskInput;
 import org.example.proxy.FileWriterProxy;
 import org.example.strategy.PlannedEffortStrategy;
@@ -37,6 +38,10 @@ public class Main {
         FileWriter fileWriter = new FileWriterProxy(factory.createFileWriter());
         fileWriter.write(tasks, "priv");
 
+
+        factory = new XMLWriterFactory();
+        fileWriter = new FileWriterProxy(factory.createFileWriter());
+        fileWriter.write(tasks, "priv");
     }
 
 }
