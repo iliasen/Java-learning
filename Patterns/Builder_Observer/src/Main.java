@@ -22,13 +22,13 @@ public class Main {
         coffeeShop.addObserver(new Observer() {
             @Override
             public void update(String data) {
-                System.out.println("Наблюдатель 1: " + data);
+                System.out.println( data);
             }
         });
         coffeeShop.addObserver(new Observer() {
             @Override
             public void update(String data) {
-                System.out.println("Наблюдатель 2: " + data);
+                System.out.println(data);
             }
         });
 
